@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  color: #ff1493;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #c71585;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+  font-family: 'Arial', sans-serif;
+  background-color: #fff0f5; /* soft pink */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color: #ff1493; /* hot pink */
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  color: #ffe6f0; /* light pink on hover */
+}
+
+/* HEADINGS */
+h1 {
+  text-align: center;
+  color: #ff1493; /* hot pink */
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #c71585; /* darker pink */
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+p {
+  margin-bottom: 10px;
+}
+
+/* SERVICES LIST */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #ffe6f0; /* soft pink */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 2px solid #ff1493; /* bright pink border */
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #ff1493; /* hot pink */
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {img {
+    border-radius: 10px; /* rounded corners */
+    margin: 10px;        /* spacing between images */
+    max-width: 100%;     /* responsive images */
+    height: auto;
+}
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ff1493;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}/* BOOKING BUTTON */
+.btn {
+  display: inline-block;
+  background-color: #ff1493; /* hot pink */
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e60073; /* darker pink on hover */
+  transform: scale(1.05);
+}
